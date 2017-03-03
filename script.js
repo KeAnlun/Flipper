@@ -95,6 +95,7 @@ $(function(){
     });
 
     $('#retry').on('click', function(event){
+        $('#message').hide();
         $('.card').flip(false);
         $('.card').on('click', function(event){
             clickHandler(event);
