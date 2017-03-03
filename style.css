@@ -1,0 +1,11 @@
+#board{
+
+}
+#button-row{
+    margin-top: 45%;
+    margin-bottom: 25px;
+}
+.piece{
+    display: inline-block;
+    width: 25%;
+}
