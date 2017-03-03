@@ -1,11 +1,29 @@
 #board{
-
+    height: 150px;
+}
+#top-row{
+    margin-top: 20%
 }
 #button-row{
-    margin-top: 45%;
     margin-bottom: 25px;
 }
 .piece{
     display: inline-block;
     width: 25%;
+    height: 100%
+}
+.panel{
+    width: 90%;
+    height: 90%;
+    font-size: 50px;
+    margin-left: 5%;
+}
+
+head body{
+    min-height: 100%
+}
+
+body{
+    background: #30E8BF;
+    background: linear-gradient(to left, #30E8BF , #FF8235);
 }

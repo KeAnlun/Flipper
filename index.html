@@ -7,14 +7,18 @@
     <link rel="stylesheet" type="text/css" href="style.css">
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
     <script type="text/javascript" src="script.js" defer></script>
-    <title>Title</title>
+    <title>Flip 'Em</title>
 </head>
 <body>
     <div class="container">
-        <div class="row">
-            <div class="cold-md-6 col-md-offset-3">
+        <div id="top-row" class="row">
+            <div class="col-sm-3">
+                <h3>The objective of the game is to make each panel flip from its 'X' side to its 'O' side. Clicking on
+                a panel will flip the panel and one other panel that it is linked to. </h3>
+            </div>
+            <div class="col-sm-6">
                 <div id="button-row" class="row">
-                    <button class="btn btn-primary">Reset</button>
+                    <button id="reset" class="btn btn-primary">Reset</button>
                 </div>
                 <div class="row">
                     <div id="board">
