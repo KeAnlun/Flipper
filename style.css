@@ -7,19 +7,26 @@
 #button-row{
     margin-bottom: 25px;
 }
-.piece{
-    display: inline-block;
-    width: 25%;
-    height: 100%
+#input{
+    display: inline;
+    width: 150px;
 }
-.panel{
-    width: 90%;
-    height: 90%;
+.card{
+    display: inline-block;
+    width: 23%;
+    height: 150px;
+    margin: 1%;
+}
+.front, .back{
+    border-radius: 25px;
     font-size: 50px;
-    margin-left: 5%;
+    box-shadow: 10px 10px 5px grey;
+    line-height:147px;
+    text-align: center;
 }
 
-head body{
+
+head, body{
     min-height: 100%
 }
 
