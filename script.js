@@ -5,6 +5,7 @@ $(function(){
     var highScores = parseCookie(document.cookie);
     updateScoreTable();
 
+    //update table based on highScore object
     function updateScoreTable(){
         $('#table-body').empty();
         for (var key in highScores) {
@@ -13,6 +14,7 @@ $(function(){
         }
     }
 
+    //parse the highScore cookie
     function parseCookie(cookie){
         if(cookie == null || cookie =='')
             return {};
@@ -23,11 +25,13 @@ $(function(){
 
     createBoard();
 
+    //board initialization based on difficulty
     function createBoard(){
         $('#message').hide();
         var moves = 0;
         var board = $('#board');
         board.empty();
+        //find a link for each card
         for(var i=0; i<difficulty; i++){
             var companion;
             do {
